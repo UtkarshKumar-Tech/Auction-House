@@ -18,32 +18,37 @@ The system will gradually include:
 - Transaction Records
 - Reports
 
-## Current Progress
+## Project Progress
 
 ### Level 1 - User Management
+- User registration
+- User login
+- User profile
+- Unique user ID
+- Email validation
+- Singly linked list for user management
 
-Implemented:
+### Level 2 - Upperworld Auction System
+- Auction creation
+- Auction display
+- Auction search by ID
+- Auction update
+- Auction deletion
+- Auction filtering by type
+- Auction filtering by category
+- Singly linked list for auction management
 
-- User Registration
-- Unique User ID generation
-- Duplicate email checking
-- User Login
-- User Profile
-- Logout
-- User Linked List
-- Dynamic memory allocation
+## Data Structures Used
 
-## Data Structure Used
+### Singly Linked List
 
-### Linked List
+The project currently uses singly linked lists for dynamic management of users and auctions.
 
-A singly linked list is used to store registered users dynamically.
+#### User Management
+Each user is stored as a node in a linked list.
 
-Example:
-
+```text
 User 1 -> User 2 -> User 3 -> NULL
-
-Each user is stored inside a node.
 
 ## Project Structure
 
