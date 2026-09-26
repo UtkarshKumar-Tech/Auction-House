@@ -11,6 +11,7 @@ The system will gradually include:
 - User Management
 - Upperworld Auctions
 - Regular and VIP Membership
+- VIP Card Management
 - Bidding System
 - Underworld Information Services
 - Commission Requests
@@ -21,6 +22,7 @@ The system will gradually include:
 ## Project Progress
 
 ### Level 1 - User Management
+
 - User registration
 - User login
 - User profile
@@ -29,6 +31,7 @@ The system will gradually include:
 - Singly linked list for user management
 
 ### Level 2 - Upperworld Auction System
+
 - Auction creation
 - Auction display
 - Auction search by ID
@@ -38,13 +41,52 @@ The system will gradually include:
 - Auction filtering by category
 - Singly linked list for auction management
 
+### Level 3 - Membership & VIP Card Management
+
+#### Membership System
+
+- Regular membership
+- VIP membership
+- Total spending tracking
+- VIP eligibility based on spending
+- VIP upgrade system
+- VIP membership display
+
+#### VIP Card System
+
+- VIP card creation
+- Unique VIP card ID
+- Issue date
+- Expiry date
+- Active card status
+- VIP card display
+- Prevention of duplicate active cards
+
+#### VIP Benefits
+
+- Access to VIP auctions
+- Early access to selected auctions
+- Priority registration
+- Access to VIP-only items
+- Exclusive VIP events
+
+#### VIP Card Management
+
+- VIP card status checking
+- Card access validation
+- Card blocking
+- Card unblocking
+- Card renewal
+- Card deactivation
+
 ## Data Structures Used
 
 ### Singly Linked List
 
-The project currently uses singly linked lists for dynamic management of users and auctions.
+The project currently uses singly linked lists for dynamic management of users, auctions, and VIP cards.
 
 #### User Management
+
 Each user is stored as a node in a linked list.
 
 ```text
@@ -53,11 +95,13 @@ User 1 -> User 2 -> User 3 -> NULL
 ## Project Structure
 
 Auction-House/
-
-    main.cpp
-    User.h
-    User.cpp
-    README.md
+│
+├── main.cpp
+├── User.h
+├── User.cpp
+├── Auction.h
+├── Auction.cpp
+└── README.md
 
 ## Technologies
 
